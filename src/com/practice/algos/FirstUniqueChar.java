@@ -31,7 +31,7 @@ public class FirstUniqueChar {
 		}
 		
 		
-		return uniqueCharIndx;
+		return uniqueCharIndx == Integer.MAX_VALUE ? -1 : uniqueCharIndx;
 	}
 
 }

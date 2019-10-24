@@ -10,7 +10,7 @@ public class BestTimeToBuyAndSell {
 	
 	private static int getProfit(int prices[]) {
 		int profit = 0;
-		if(prices == null && prices.length == 0) {
+		if(prices == null  || prices.length == 0) {
 			return profit;
 		}
 		

@@ -14,18 +14,18 @@ package com.practice.ds.tree;
 public class PrintTreeLeftView {
     static Integer treeLevel = 0;
 
-    private static void printLeftSideView(Node treeNode, Integer currentNodelevel) {
+    private static void printLeftSideView(Node treeNode, Integer currentNodeLevel) {
             if(treeNode == null) {
                 return;
             }
 
-            if(treeLevel < currentNodelevel) {
+            if(treeLevel < currentNodeLevel) {
                 System.out.println(treeNode.value);
-                treeLevel = currentNodelevel;
+                treeLevel = currentNodeLevel;
             }
 
-            printLeftSideView(treeNode.left, currentNodelevel+1);
-            printLeftSideView(treeNode.right, currentNodelevel+1);
+            printLeftSideView(treeNode.left, currentNodeLevel+1);
+            printLeftSideView(treeNode.right, currentNodeLevel+1);
     }
 
     /**

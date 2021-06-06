@@ -7,7 +7,7 @@ package com.practice.ds.tree;
  *         4           5
  *                        6
  *
- *   It will give depth as 3
+ *   It will give depth as 4
  */
 public class FindMaxTreeDepth {
 

@@ -7,6 +7,7 @@ public class GroupedAnagrams {
         String[] anagrams = new String[]{"ate", "obb","tea", "bob", "bbo", "cat", "eat","tac", "atc"};
         System.out.print("Grouped anagrams: ");
         System.out.print(getGroupOfAnagrams(anagrams));
+        int nums[] =new int[7];
     }
 
     private static List<List<String>> getGroupOfAnagrams(String[] anagrams) {
